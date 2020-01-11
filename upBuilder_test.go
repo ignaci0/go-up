@@ -6,7 +6,7 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/ufoscout/go-up/reader"
+	"github.com/ignaci0/go-up/reader"
 )
 
 func Test_environmentVariablesKeysShouldBeIncludedAndNormalized(t *testing.T) {

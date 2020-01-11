@@ -3,7 +3,7 @@ package decorator
 import (
 	"strings"
 
-	"github.com/ufoscout/go-up/reader"
+	"github.com/ignaci0/go-up/reader"
 )
 
 // ToLowerCaseKeyDecoratorReader transforms all property keys to lowercase

@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ufoscout/go-up/reader"
-	"github.com/ufoscout/go-up/reader/decorator"
+	"github.com/ignaci0/go-up/reader"
+	"github.com/ignaci0/go-up/reader/decorator"
 )
 
 // GoUp interface

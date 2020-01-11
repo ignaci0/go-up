@@ -1,8 +1,8 @@
 # go-up! A simple configuration library with placeholders resolution and no magic.
 
-[![Build Status](https://travis-ci.org/ufoscout/go-up.svg?branch=master)](https://travis-ci.org/ufoscout/go-up)
-[![codecov](https://codecov.io/gh/ufoscout/go-up/branch/master/graph/badge.svg)](https://codecov.io/gh/ufoscout/go-up)
-[![Go Report Card](https://goreportcard.com/badge/github.com/ufoscout/go-up)](https://goreportcard.com/report/github.com/ufoscout/go-up)
+[![Build Status](https://travis-ci.org/ignaci0/go-up.svg?branch=master)](https://travis-ci.org/ignaci0/go-up)
+[![codecov](https://codecov.io/gh/ignaci0/go-up/branch/master/graph/badge.svg)](https://codecov.io/gh/ignaci0/go-up)
+[![Go Report Card](https://goreportcard.com/badge/github.com/ignaci0/go-up)](https://goreportcard.com/report/github.com/ignaci0/go-up)
 
 go-up provides a simple way to configure an application from multiple sources — built in resources, property files, environment variables, and whatever else you like.
 
@@ -26,13 +26,13 @@ Getting Started
 In your go file:
 ```Go
 import (
-	"github.com/ufoscout/go-up"
+	"github.com/ignaci0/go-up"
 )
 ```
 
 If you use VGO, add in your go.mod file:
 ```
-require github.com/ufoscout/go-up v0.6.0
+require github.com/ignaci0/go-up v0.6.0
 ```
 
 
@@ -79,7 +79,7 @@ By default, go-up offers readers to load properties from:
 * Environment variables
 * Programmatically typed properties
 
-Custom properties readers can be easily created implementing the `github.com/ufoscout/go-up/reader/Reader` interface.
+Custom properties readers can be easily created implementing the `github.com/ignaci0/go-up/reader/Reader` interface.
 
 
 Placeholders resolution
@@ -309,7 +309,7 @@ type GoUp interface {
 
 GoDoc
 -----
-See [https://godoc.org/github.com/ufoscout/go-up](https://godoc.org/github.com/ufoscout/go-up)
+See [https://godoc.org/github.com/ignaci0/go-up](https://godoc.org/github.com/ignaci0/go-up)
 
 # Rationale
 Before Go-Up, I used to use [Viper](https://github.com/spf13/viper). 

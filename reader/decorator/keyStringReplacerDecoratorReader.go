@@ -3,7 +3,7 @@ package decorator
 import (
 	"strings"
 
-	"github.com/ufoscout/go-up/reader"
+	"github.com/ignaci0/go-up/reader"
 )
 
 // KeyStringReplacerDecoratorReader a decorator that perfoms string substitution in

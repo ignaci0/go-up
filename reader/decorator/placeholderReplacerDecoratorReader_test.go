@@ -5,7 +5,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/ufoscout/go-up/reader"
+	"github.com/ignaci0/go-up/reader"
 )
 
 func Test(t *testing.T) {

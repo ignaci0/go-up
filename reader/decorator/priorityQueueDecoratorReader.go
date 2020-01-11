@@ -3,7 +3,7 @@ package decorator
 import (
 	"sort"
 
-	"github.com/ufoscout/go-up/reader"
+	"github.com/ignaci0/go-up/reader"
 )
 
 // PriorityQueueDecoratorReader A Reader that wraps a prioritized list of other Readers.

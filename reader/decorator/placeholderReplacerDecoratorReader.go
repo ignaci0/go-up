@@ -4,8 +4,8 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/ufoscout/go-up/reader"
-	"github.com/ufoscout/go-up/util"
+	"github.com/ignaci0/go-up/reader"
+	"github.com/ignaci0/go-up/util"
 )
 
 // PlaceholderReplacerDecoratorReader a decorator that resolves property placeholders
